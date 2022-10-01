@@ -1,0 +1,110 @@
+<sensor>
+	<tracker>Microsoft</tracker>
+	<mode>Full Body</mode>
+	<mirrormode>false</mirrormode>
+	<smoothing>true</smoothing>
+	<smoothingfactor>0.5</smoothingfactor>
+	<correction>0.5</correction>
+	<prediction>0.5</prediction>
+	<jitter>0.05</jitter>
+	<deviation>0.04</deviation>
+</sensor>
+<server>
+	<transformations>Global coordinates</transformations>
+	<automaticassignment>false</automaticassignment>
+	<tracker0>1</tracker0>
+	<tracker1/>
+	<tracker2/>
+	<tracker3/>
+</server>
+<display>
+	<showviewerwindow>true</showviewerwindow>
+	<background>Depth</background>
+	<foreground>Depth</foreground>
+	<showconsolewindow>true</showconsolewindow>
+	<movechildwindows>true</movechildwindows>
+	<savewindowlayout>false</savewindowlayout>
+</display>
+<gestures>
+	<gesture name="piña" timeout="1" enabled="true" outputloop="false" outputtimeout="10">
+		<input type="1">
+			<descriptor>left hand</descriptor>
+			<descriptor>apart from</descriptor>
+			<descriptor>torso</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>60</descriptor>
+			<descriptor>centimeters</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>press</descriptor>
+			<descriptor>j</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="patada" timeout="0" enabled="true" outputloop="false" outputtimeout="0">
+		<input type="1">
+			<descriptor>right ankle</descriptor>
+			<descriptor>apart from</descriptor>
+			<descriptor>left ankle</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>40</descriptor>
+			<descriptor>centimeters</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>l</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="podercito" timeout="0" enabled="true" outputloop="false" outputtimeout="0">
+		<input type="1">
+			<descriptor>right hand</descriptor>
+			<descriptor>apart from</descriptor>
+			<descriptor>right hip</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>50</descriptor>
+			<descriptor>centimeters</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>i</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="adelante" timeout="0" enabled="true" outputloop="true" outputtimeout="0">
+		<input type="0">
+			<descriptor>lean</descriptor>
+			<descriptor>forward</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>30</descriptor>
+			<descriptor>degrees</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>d</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="Cubrirse" timeout="0" enabled="true" outputloop="true" outputtimeout="0.04">
+		<input type="1">
+			<descriptor>left wrist</descriptor>
+			<descriptor>apart from</descriptor>
+			<descriptor>right wrist</descriptor>
+			<descriptor>at most</descriptor>
+			<descriptor>10</descriptor>
+			<descriptor>centimeters</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>press</descriptor>
+			<descriptor>k</descriptor>
+			<descriptor>for</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+</gestures>
+<plugins/>
+

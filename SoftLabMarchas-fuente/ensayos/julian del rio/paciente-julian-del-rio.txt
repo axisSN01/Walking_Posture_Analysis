@@ -1,0 +1,16 @@
+julian del rio
+-diplejia espastica,
+tratamiento: risotomia, ademas de rehabilitacion, botox en musculos
+espasticos. reahbilitacion neurologica. hidroterapia
+
+1er ensayo:
+Vel:2.77  ; dist:1.1
+
+2er ensayo:
+Vel: 1.03 ; dist: 0.76
+
+3er ensayo:
+Vel: 2.77 ; dist: 0.9
+
+4er ensayo:
+Vel:  ; dist:

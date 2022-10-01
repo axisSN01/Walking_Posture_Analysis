@@ -1,0 +1,14 @@
+sotelo teresa
+-sintomas:
+
+1er ensayo:
+Vel:3.12  ; dist:1.01
+
+2er ensayo:
+Vel: 2.49 ; dist: 1.06
+
+3er ensayo:
+Vel: 3.23 ; dist: 1.01
+
+4er ensayo:
+Vel:  0; dist:
